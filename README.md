@@ -4,7 +4,7 @@ Members names:
 
 Arvin (303363416)
 
-Eric (Student Number)
+Eric (300349848)
 
 Lili Rose (300342096) 
 
