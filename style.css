@@ -20,6 +20,9 @@
     font-weight: 600;
     color: white;
 }
+.logo img {
+    margin-bottom: -7px;
+}
 
 li {
     list-style: none;
