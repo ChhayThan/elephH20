@@ -1,5 +1,6 @@
 * {
     text-decoration: none;
+    font-family: "Lato", sans-serif;
 
 }
 .navbar {
@@ -51,7 +52,7 @@ li a {
 
 }
 
-.content p1 {
+.content p{
     font-size: 20px;
     margin-top: 20px;
 }
