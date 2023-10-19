@@ -2,7 +2,7 @@
     text-decoration: none;
     font-family: "Lato", sans-serif;
     background-color:#87CEED;
-    color: #4AC087;
+    color: #008A65;
 
 }
 .navbar {
@@ -124,12 +124,11 @@ li a {
 /* CSS for Button in our content*/
 .content .button-19 {
   appearance: button;
-  background-color: #1899D6;
+  background-color: #d6d6d6;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
   font-family: din-round,sans-serif;
@@ -155,7 +154,7 @@ li a {
 
 .content .button-19:after {
   background-clip: padding-box;
-  background-color: #1CB0F6;
+  background-color: #FFFFFF;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
