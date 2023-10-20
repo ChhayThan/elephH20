@@ -46,9 +46,9 @@ li a {
 }
 
 .content h1 {
-    font-size: 40px;
+    font-size: 50px;
     align-items: end;
-
+    width: 50%
 }
 
 .content p{
