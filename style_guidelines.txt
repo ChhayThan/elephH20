@@ -1,0 +1,45 @@
+Style Guidelines of ElephH2O
+----------------------------
+
+
+
+Overall aesthetic feeling
+-------------------------
+
+...
+
+
+Colors
+-------
+
+The colors intend to remind water and nature, therefore they will be shades of blue and green. 
+
+
+Fonts
+-----
+
+The main font that will be use is Lato sans-serif.
+
+
+Links
+-----
+
+...
+
+
+Buttons
+-------
+
+...
+
+
+Tables
+------
+
+...
+
+
+Icons
+-----
+
+...
