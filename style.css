@@ -364,22 +364,42 @@ section h1 {
 
 .features {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
   margin-top: 30px;
+ 
 }
 
 .feature {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 500px;
+  height: 100%;
 }
 
+
+
 .feature img {
-  
+  height: 430px;
+  width: 435px;
+  padding: 10px;
   background-image: url(./images/Ellipse\ 1.png);
   background-repeat: no-repeat;
   background-size: 100%;
+
+}
+
+.feature-3 img {
+  padding: 30px;
+}
+
+.feature h3 {
+  font-size: 40px;
+}
+
+.feature p {
+  text-align: center;
+  font-size: 25px;
 }
