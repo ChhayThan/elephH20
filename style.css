@@ -3,13 +3,10 @@
 * { 
     text-decoration: none;
     font-family: "Raleway", sans-serif;
-
-    color: #008A65;
     color: #008A65;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -47,7 +44,7 @@ li {
 }
 
 li a {
-    font-size: 25px;
+    font-size: 30px;
     margin-right: 25px;
     color: #008A65;
 }
@@ -69,7 +66,7 @@ li a {
   
 }
 .hero .info h1 {
-    font-size: 70px;
+    font-size:  90px;
     font-weight: bold;
     align-items: end;
     color: #008A65;
@@ -90,7 +87,11 @@ li a {
 }
 
 .banner img {
-  height: 55%
+  height: 55%;
+  background-image: url(./images/Vector.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 
@@ -99,19 +100,19 @@ li a {
   appearance: button;
   background-color: #d6d6d6;
   border: solid transparent;
-  border-radius: 50px;
+  border-radius: 40px;
   border-width: 0 0 4px;
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   font-family: din-round,sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
   outline: none;
   overflow: visible;
-  padding: 13px 13px;
+  padding: 18px 13px;
   text-align: center;
   touch-action: manipulation;
   transform: translateZ(0);
@@ -120,7 +121,7 @@ li a {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 100px;
+  width: 120px;
   margin-right: 10px;
 }
 
@@ -169,7 +170,7 @@ li a {
   appearance: button;
   background-color: #d6d6d6;
   border: solid transparent;
-  border-radius: 60px;
+  border-radius: 40px;
   border-width: 0 0 4px;
   box-sizing: border-box;
   cursor: pointer;
@@ -229,6 +230,9 @@ li a {
 
 
 footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
   background-color: #3F7DB7;
 }
 
@@ -338,4 +342,40 @@ footer {
 .content .button-19:active {
   border-width: 4px 0 0;
   background: none;
+}
+
+/* Styling for Feature Section */
+
+section .feature {
+  height: 100vh;
+}
+
+section h1 {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.feature {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature img {
+  
+  background-image: url(./images/Ellipse\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
