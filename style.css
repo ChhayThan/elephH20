@@ -1,13 +1,12 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+* { 
     text-decoration: none;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", sans-serif;
     background-color:#87CEED;
     color: #008A65;
-    font-family: "Lato", sans-serif;
-        /*
     background-color:#87CEED;
     color: #008A65;
-        */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -18,7 +17,7 @@ body {
   background-color:#87CEED;
 }
 .navbar {
-    font-family: "Lato", sans-serif;
+    
     padding-right: 15px;
     padding-left: 15px; 
 }
@@ -49,34 +48,59 @@ li {
 }
 
 li a {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 25px;
     margin-right: 25px;
     color: #008A65;
 }
 
-.content {
+.hero {
     padding: 0 5%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
     height: 100vh;
 }
 
-.content h1 {
-    font-size: 40px;
+.hero .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  
+}
+.hero .info h1 {
+    font-size: 70px;
+    font-weight: bold;
     align-items: end;
     color: #008A65;
 
 }
+
+.hero .info p{
+  font-size: 50px;
+  width: 750px;
+}
+
+.hero .banner {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.banner img {
+  height: 55%
+}
+
 
 /* CSS for signup/in button in navbar */
 .navdiv .button-19 {
   appearance: button;
   background-color: #d6d6d6;
   border: solid transparent;
-  border-radius: 16px;
+  border-radius: 50px;
   border-width: 0 0 4px;
   box-sizing: border-box;
   cursor: pointer;
@@ -86,12 +110,10 @@ li a {
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
-  margin: 0;
   outline: none;
   overflow: visible;
-  padding: 13px 16px;
+  padding: 13px 13px;
   text-align: center;
-  text-transform: uppercase;
   touch-action: manipulation;
   transform: translateZ(0);
   transition: filter .2s;
@@ -100,6 +122,7 @@ li a {
   vertical-align: middle;
   white-space: nowrap;
   width: 100px;
+  margin-right: 10px;
 }
 
 .navdiv .button-19:after {
@@ -137,30 +160,30 @@ li a {
 }
 
 /* CSS for Button in our content*/
-.content a{
+.hero a{
   background-color: #FFFFFF;
   color: #008A65;
+  
 }
-.content .button-19 {
+.hero .button-19 {
+  margin-top: 30px;
   appearance: button;
   background-color: #d6d6d6;
   border: solid transparent;
-  border-radius: 16px;
+  border-radius: 60px;
   border-width: 0 0 4px;
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   font-family: din-round,sans-serif;
-  font-size: 15px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
-  margin: 0;
   outline: none;
   overflow: visible;
-  padding: 13px 16px;
+  padding: 30px 16px;
   text-align: center;
-  text-transform: uppercase;
   touch-action: manipulation;
   transform: translateZ(0);
   transition: filter .2s;
@@ -168,10 +191,10 @@ li a {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 200px;
+  width: 250px;
 }
 
-.content .button-19:after {
+.hero .button-19:after {
   background-clip: padding-box;
   background-color: #FFFFFF;
   border: solid transparent;
@@ -186,21 +209,21 @@ li a {
   z-index: -1;
 }
 
-.content .button-19:main,
-.content .button-19:focus {
+.hero .button-19:main,
+.hero .button-19:focus {
   user-select: auto;
 }
 
-.content .button-19:hover:not(:disabled) {
+.hero .button-19:hover:not(:disabled) {
   filter: brightness(1.1);
   -webkit-filter: brightness(1.1);
 }
 
-.content .button-19:disabled {
+.hero .button-19:disabled {
   cursor: auto;
 }
 
-.content .button-19:active {
+.hero .button-19:active {
   border-width: 4px 0 0;
   background: none;
 }
@@ -252,90 +275,6 @@ footer {
 }
 
 
-.content {
-    padding: 0 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-}
-
-.content h1 {
-    font-size: 50px;
-    align-items: end;
-    width: 50%
-}
-
-.content p{
-    font-size: 20px;
-    margin-top: 20px;
-}
-
-/* CSS for signup/in button in navbar */
-.navdiv .button-19 {
-  appearance: button;
-  background-color: #d6d6d6;
-  border: solid transparent;
-  border-radius: 16px;
-  border-width: 0 0 4px;
-  box-sizing: border-box;
-  cursor: pointer;
-  display: inline-block;
-  font-family: din-round,sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: .8px;
-  line-height: 20px;
-  margin: 0;
-  outline: none;
-  overflow: visible;
-  padding: 13px 16px;
-  text-align: center;
-  text-transform: uppercase;
-  touch-action: manipulation;
-  transform: translateZ(0);
-  transition: filter .2s;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-  width: 100px;
-}
-
-.navdiv .button-19:after {
-  background-clip: padding-box;
-  background-color: #FFFFFF;
-  border: solid transparent;
-  border-radius: 16px;
-  border-width: 0 0 4px;
-  bottom: -4px;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-}
-
-.navdiv .button-19:main,
-.navdiv .button-19:focus {
-  user-select: auto;
-}
-
-.navdiv .button-19:hover:not(:disabled) {
-  filter: brightness(1.1);
-  -webkit-filter: brightness(1.1);
-}
-
-.navdiv .button-19:disabled {
-  cursor: auto;
-}
-
-.navdiv .button-19:active {
-  border-width: 4px 0 0;
-  background: none;
-}
 
 /* CSS for Button in our content*/
 .content .button-19 {
