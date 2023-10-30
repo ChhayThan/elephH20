@@ -7,8 +7,7 @@ Overall look and aesthetic of ElephH20
 -------------------------
 
 The central theme will be nature as our product heavily focused on plants and the environment. Through the webpage, we hope to convery a sense of calmness and serenity that nature is well-known for. 
-We achieve this by using a soothing color palette consisting of different types of blue and green, simple and smooth illustrations, as well as a sleek font such as raleway
-s   
+We achieve this by using a soothing color palette consisting of different types of blue and green, simple and smooth illustrations, as well as a sleek font such as raleways   
 
 Colors
 -------
@@ -30,7 +29,6 @@ The main font that will be use is Raleway from Google Fonts. Raleway is the idea
 Links
 -----
 Links will not be underlined, unbolded, and given the color green. The links will also allow the user to view different pages within our webpage and allow the ability to return to previous pages. The links will also be given an animation effect to give a sense of a living webpage. This animation may cause it to float or dissipate slightly
-...
 
 
 Buttons
@@ -40,7 +38,6 @@ Button padding will be filled with white and will have a border radius to give i
 Button animation will make the text dissipate slightly and upon click will go downwards as to simulate an actual button click
 
 
-...
 
 
 Tables
@@ -48,11 +45,9 @@ Tables
 Tables may be used on our webpage if we plan to implement a leaderboard into our webpage
 If so, the table will have a white background and the text will be green.
 The table will have columns for usernames, plant name, and happines streak, along with a rank
-...
 
 
 Icons
 -----
 Icons are going to be used in our footer to represent our social media links. 
 These icons will have a white circle background and the icons will be blue
-...
