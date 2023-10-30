@@ -244,3 +244,7 @@ footer {
   opacity: 0.7;
 }
 
+.small-image {
+  width: 100px; 
+  height: auto; 
+}
