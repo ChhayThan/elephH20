@@ -1,23 +1,28 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+* { 
     text-decoration: none;
-    font-family: "Lato", sans-serif;
-        /*
-    background-color:#87CEED;
+    font-family: "Raleway", sans-serif;
     color: #008A65;
-        */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 body {
   background-color:#87CEED;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .navbar {
-    font-family: "Lato", sans-serif;
+    
     padding-right: 15px;
     padding-left: 15px; 
+}
+
+.navbar button a{
+  background-color: #FFFFFF;
 }
 
 .navbar button a{
@@ -42,49 +47,76 @@ li {
 }
 
 li a {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 30px;
     margin-right: 25px;
     color: #008A65;
 }
 
-.content {
+.hero {
     padding: 0 5%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
     height: 100vh;
 }
 
-.content h1 {
-    font-size: 40px;
+.hero .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  
+}
+.hero .info h1 {
+    font-size:  90px;
+    font-weight: bold;
     align-items: end;
     color: #008A65;
 
 }
+
+.hero .info p{
+  font-size: 50px;
+  width: 750px;
+}
+
+.hero .banner {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.banner img {
+  height: 55%;
+  background-image: url(./images/Vector.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 
 /* CSS for signup/in button in navbar */
 .navdiv .button-19 {
   appearance: button;
   background-color: #d6d6d6;
   border: solid transparent;
-  border-radius: 16px;
+  border-radius: 40px;
   border-width: 0 0 4px;
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   font-family: din-round,sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
-  margin: 0;
   outline: none;
   overflow: visible;
-  padding: 13px 16px;
+  padding: 18px 13px;
   text-align: center;
-  text-transform: uppercase;
   touch-action: manipulation;
   transform: translateZ(0);
   transition: filter .2s;
@@ -92,7 +124,8 @@ li a {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 100px;
+  width: 120px;
+  margin-right: 10px;
 }
 
 .navdiv .button-19:after {
@@ -130,10 +163,132 @@ li a {
 }
 
 /* CSS for Button in our content*/
-.content a{
+.hero a{
   background-color: #FFFFFF;
   color: #008A65;
+  
 }
+.hero .button-19 {
+  margin-top: 30px;
+  appearance: button;
+  background-color: #d6d6d6;
+  border: solid transparent;
+  border-radius: 40px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  outline: none;
+  overflow: visible;
+  padding: 30px 16px;
+  text-align: center;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.hero .button-19:after {
+  background-clip: padding-box;
+  background-color: #FFFFFF;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.hero .button-19:main,
+.hero .button-19:focus {
+  user-select: auto;
+}
+
+.hero .button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.hero .button-19:disabled {
+  cursor: auto;
+}
+
+.hero .button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+
+footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #3F7DB7;
+  margin-top: auto;
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.icons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.icons a i {
+  font-size: 2em;
+  color: #3F7DB7;
+  opacity: 0.9;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  font-size: 1.3 em;
+  opacity: 0.7;
+}
+
+<<<<<<< HEAD
+.small-image {
+  width: 100px; 
+  height: auto; 
+=======
+
+
+/* CSS for Button in our content*/
 .content .button-19 {
   appearance: button;
   background-color: #d6d6d6;
@@ -198,53 +353,117 @@ li a {
   background: none;
 }
 
+/* Styling for Feature Section */
 
-footer {
-  background-color: #3F7DB7;
+section .feature {
+  height: 100vh;
 }
 
-.footerContainer {
-  width: 100%;
-  padding: 70px 30px 20px;
-}
-
-.icons {
+section h1 {
+  font-size: 80px;
   display: flex;
   justify-content: center;
-  
+
 }
 
-.icons a {
-  text-decoration: none;
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+ 
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 500px;
+  height: 100%;
+}
+
+
+
+.feature img {
+  height: 430px;
+  width: 435px;
   padding: 10px;
-  background-color: white;
-  margin: 10px;
-  border-radius: 50%;
+  background-image: url(./images/Ellipse\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
 }
 
-.icons a i {
-  font-size: 2em;
-  color: #3F7DB7;
-  opacity: 0.9;
+.feature-3 img {
+  padding: 30px;
 }
 
-.footerNav {
-  margin: 30px 0;
+.feature h3 {
+  font-size: 40px;
 }
 
-.footerNav ul {
+.feature p {
+  text-align: center;
+  font-size: 25px;
+}
+
+
+
+
+.team {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  gap: 1rem;
 }
 
-.footerNav ul li a {
-  color: white;
-  margin: 20px;
-  font-size: 1.3 em;
-  opacity: 0.7;
+.team h3 {
+  font-size: 40px;
+  max-width: 500px;
+  height: 100%;
 }
 
-.small-image {
-  width: 100px; 
-  height: auto; 
+.team p {
+  text-align: justify;
+  font-size: 20px;
+  max-width: 400px;
+  height: 100%;
+}
+
+
+.team img {
+  max-width: 300px;
+  height:100%
+
+}
+
+.team2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.team2 h3 {
+  font-size: 40px;
+  max-width: 500px;
+  height: 100%;
+}
+
+.team2 p {
+  text-align: justify;
+  font-size: 20px;
+  max-width: 400px;
+  height: 100%;
+}
+
+.team2 img {
+  max-width: 300px;
+  height:100%
+
+>>>>>>> 20b61be23a88590ecfcf371b8d65d1e9474f8737
 }
