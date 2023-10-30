@@ -281,12 +281,10 @@ footer {
   opacity: 0.7;
 }
 
-<<<<<<< HEAD
 .small-image {
   width: 100px; 
   height: auto; 
-=======
-
+}
 
 /* CSS for Button in our content*/
 .content .button-19 {
@@ -427,7 +425,7 @@ section h1 {
 }
 
 .team p {
-  text-align: justify;
+  text-align: center;
   font-size: 20px;
   max-width: 400px;
   height: 100%;
@@ -455,7 +453,7 @@ section h1 {
 }
 
 .team2 p {
-  text-align: justify;
+  text-align: center;
   font-size: 20px;
   max-width: 400px;
   height: 100%;
@@ -463,7 +461,5 @@ section h1 {
 
 .team2 img {
   max-width: 300px;
-  height:100%
-
->>>>>>> 20b61be23a88590ecfcf371b8d65d1e9474f8737
+  height:100%;
 }
