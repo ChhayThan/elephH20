@@ -106,15 +106,18 @@ li a {
   flex-direction:column;
   justify-content: center;
   align-items: center;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
 
 }
 
 .banner img {
-  height: 55%;
-  background-image: url(./images/Vector.png);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  height: 70%;
+  
+ 
+  overflow: hidden;
+  border: 0;
+  
 }
 
 
@@ -457,7 +460,8 @@ section h1 {
 
 .team img {
   max-width: 300px;
-  height:100%
+  height: 300px;
+  border-radius: 30px;
 
 }
 
@@ -485,6 +489,7 @@ section h1 {
 .team2 img {
   max-width: 300px;
   height:100%;
+  border-radius: 30px;
 }
 
 .content .star {
@@ -525,4 +530,19 @@ section h1 {
   text-align: center;
   font-size: 2.4em;
   width: 500px;
+}
+
+@keyframes float {
+	0% {
+	
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
 }
