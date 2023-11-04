@@ -113,7 +113,7 @@ li a {
 
 .banner img {
   height: 70%;
-  
+
  
   overflow: hidden;
   border: 0;
@@ -545,4 +545,33 @@ section h1 {
 		
 		transform: translatey(0px);
 	}
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.feature:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.feature:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.Rating:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.Rating:nth-child(3) {
+  transition-delay: 400ms;
 }
