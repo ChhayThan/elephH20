@@ -18,6 +18,7 @@
 :root{
   --primary-color: #87CEED;
   --secondary-color: #008A65;
+  --teritary-green: #4ABF87;
   --footer-color: #3F7DB7;
 }
 
@@ -372,9 +373,7 @@ footer {
 
 /* Styling for Feature Section */
 
-section .feature {
-  height: 100vh;
-}
+
 
 section h1 {
   font-size: 80px;
@@ -387,7 +386,7 @@ section h1 {
 .features {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 30px;
+  height: 100vh;
  
 }
 
@@ -398,14 +397,14 @@ section h1 {
   justify-content: center;
   gap: 1rem;
   max-width: 500px;
-  height: 100%;
+
 }
 
 
 
 .feature img {
-  height: 430px;
-  width: 435px;
+  height: 500px;
+  width: 500px;
   padding: 10px;
   background-image: url(./images/Ellipse\ 1.png);
   background-repeat: no-repeat;
@@ -424,11 +423,16 @@ section h1 {
 .feature p {
   text-align: center;
   font-size: 25px;
+  width:450px;
 }
 
 
 
-
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
 .team {
   display: flex;
   flex-direction: column;
@@ -481,4 +485,44 @@ section h1 {
 .team2 img {
   max-width: 300px;
   height:100%;
+}
+
+.content .star {
+  width: 80px;
+  height: 80px;
+}
+
+.content .testimonial {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 2.7rem;
+  margin-left: 2.7rem;
+  gap: 2.6rem;
+  height: 100vh;
+}
+
+.content .Rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-basis: 33.3%;
+  background-color: var(--teritary-green);
+  height: 70%;
+  border-radius: 40px;
+}
+
+.content .Rating h3, p {
+  color:white;
+}
+
+.content .Rating h3 {
+  font-size: 2.8em;
+}
+
+.content .Rating p {
+  text-align: center;
+  font-size: 2.4em;
+  width: 500px;
 }
