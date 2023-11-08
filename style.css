@@ -399,15 +399,15 @@ section h1 {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  max-width: 500px;
+  max-width: 450px;
 
 }
 
 
 
 .feature img {
-  height: 500px;
-  width: 500px;
+  height: 450px;
+  width: 450px;
   padding: 10px;
   background-image: url(./images/Ellipse\ 1.png);
   background-repeat: no-repeat;
@@ -590,7 +590,7 @@ section h1 {
 
 .product{
   width: 90%;
-  max-width: 750px;
+  max-width: 850px;
   display:flex;
 }
 
