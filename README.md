@@ -4,17 +4,15 @@
 
 [Come Visit Us!](https://chhaythan.github.io/elephH20/#)
 
-## Members names:
+## Members names
 
-Arvin: (303363416)
-
-Eric: (300349848)
-
-Lili Rose: (300342096) 
-
-Océane: (300272920)
-
-Loqman: (300385236)
+| Name      | Student # |
+|-----------|-----------|
+| Arvin     | 303363416 |
+| Eric      | 300349848 |
+| Lili Rose | 300342096 |
+| Océane    | 300272920 |
+| Loqman    | 300385236 |
 
 Product Name: Waterwise
 
