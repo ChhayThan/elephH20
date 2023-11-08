@@ -1,5 +1,8 @@
 # ElephH20
-## Website link: https://chhaythan.github.io/elephH20/#
+
+![ElephH20](images/Transparent%20elephh20%20logo.png)
+
+[Come Visit Us!](https://chhaythan.github.io/elephH20/#)
 
 ## Members names:
 
