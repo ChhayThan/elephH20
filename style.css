@@ -652,3 +652,58 @@ section h1 {
   color: #ffffff;
   font-weight: 900;
 }
+
+.wrapper {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: transparent;
+  border: 2px solid Brgba(255, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transform: scale(0); 
+  transition: transform .5s ease, height .2s ease;
+}
+
+
+.wrapper.active {
+height: 52px;
+
+}
+
+.wrapper.active-popup {
+transform: scale(1) ;
+}
+
+.wrapper .icon-close{
+position: absolute;
+top: 0;
+right: 0;
+width: 45px;
+height: 45px;
+background: #162938;
+font-size: 3em;
+display: flex;
+justify-content: center;
+align-items: center ;
+overflow: hidden;
+border-bottom-left-radius: 20px;
+}
+
+
+
+.remember-forgot {
+font-size: .9em;
+color: #162938;
+font-weight: 500;
+margin: -15px 4 15px;
+display: flex;
+justify-content: space-between;
+
+}
+
